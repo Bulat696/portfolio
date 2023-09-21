@@ -38,7 +38,6 @@ header {
     margin: 0 auto;
     padding: 36px 0 261px 0;
     width: 1155px;
-    
 }
 
 .logo-link {
@@ -56,8 +55,12 @@ header {
     background-color: #000;
 }
 
-.nav {
+nav {
     float: right;
+}
+
+.nav {
+    display: inline-block;
 }
 
 .nav__link {
@@ -140,7 +143,7 @@ h2 {
     background-image: url(../resourcesPort/GLASS.png);    
 }
 
-.Fesiyen {
+.fesiyen {
     background-image: url(../resourcesPort/Fesiyen.png);
 }
 
@@ -184,13 +187,13 @@ h2 {
 
 /*Мои компетенции*/
 
-.my-skills {
+.skills {
     padding-left: 123px;
     padding-bottom: 156px;
     width: 1400px;
 }
 
-.my-skills h2 {
+.skills h2 {
     padding-bottom: 47px;
 }
 
@@ -230,7 +233,7 @@ h2 {
     background-image: url(../resourcesPort/icon-atom.png);
 }
 
-.my-skills h3 {
+.skills h3 {
     padding-bottom: 16px;
     color: #1BFF07;
 }
@@ -239,7 +242,7 @@ h2 {
     width: 651px;
 }
 
-.my-skills p {
+.skills p {
     width: 778px;
     font-size: 22px;
     line-height: normal;
@@ -248,12 +251,12 @@ h2 {
 
 /*Помогаю реализовать широкий спектр задач*/
 
-.list-of-services {
+.list-services {
     padding-left: 125px;
     width: 1400px;
 }
 
-.list-of-services h3 {
+.list-services h3 {
     padding-bottom: 74px;
     width: 403px;
     color: #FFF;
